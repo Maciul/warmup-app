@@ -21,8 +21,13 @@ $(document).ready(function() {
     return fortuneCookies[idx];
   }
 
+  function backgroundDeploy() {
+    var rand = Math.floor(Math.random() * backgroundLinks.length);
+    return backgroundLinks[rand];
+  }
+
   $('button').click(function() {
     $('section').html('<h1>' + cookieDeploy() + '</h1>');
-    $('body').css('backgroundImage','url(images/example.jpg)');
-})
+    $('body').css('background-image', 'url(' + backgroundDeploy() + ')');
+  });
 });
