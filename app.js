@@ -15,6 +15,9 @@ $(document).ready(function() {
 
   $('button').click(function() {
     $('section').html('<h1>' + cookieDeploy() + '</h1>');
-    $('body').css('backgroundImage','url(images/example.jpg)');
+    $('body').css('background-color: red');
+  });
+
+  
 
 });
