@@ -1,1 +1,10 @@
-ss
+button {
+  padding: 10px;
+  border: 1px solid black;
+  background-color: green;
+  color: black;
+}
+
+body {
+  background-image: url("http://2geh.com/data/uploads/43/537377.jpg")
+}
